@@ -1,0 +1,28 @@
+# .gitignore for Resolve Hub
+
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# SQLite database — NEVER commit this; it contains hashed passwords
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded files
+Uploads/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+
+# Environment / secrets — if you add API keys, put them here
+.env
+appsettings.Development.json
+secrets.json
